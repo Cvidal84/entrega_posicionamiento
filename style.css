@@ -18,7 +18,7 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 0;
+  float: left;
   width: 100%;
   text-align: left;
   padding: 20px;  
@@ -28,8 +28,8 @@ header {
 
 .content {
   position: relative;
-  top: 100px;
-  left: 0;
+  width: 100%;
+  float: left;
   padding: 20px;
   text-align: left;
   border: 1px dotted #9ad79b;
@@ -54,7 +54,7 @@ header {
 .features {
   position: relative;
   width: 100%;
-  top: 200px;
+  top: 150px;
   margin-top: 200px;
   padding: 20px;
   text-align: center;
